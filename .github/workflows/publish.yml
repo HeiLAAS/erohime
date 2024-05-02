@@ -25,6 +25,9 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: Resolve lockfile conflicts
+        run: pnpm install --no-frozen-lockfile
+        
       - name: Use Node.js 18.x
         uses: actions/setup-node@v2
         with:
