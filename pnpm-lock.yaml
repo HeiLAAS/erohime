@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^3.3.1
     version: 3.3.1(@swc/core@1.3.93)(react-refresh@0.14.0)
   '@xn-sakina/meta':
-    specifier: ^3.8.1
-    version: 3.8.1(eslint@8.33.0)(typescript@4.9.5)
+    specifier: ^0.0.0-experimental-1
+    version: 0.0.0-experimental-1(eslint@8.33.0)(typescript@4.9.5)
   chalk:
     specifier: 4.1.1
     version: 4.1.1
@@ -6361,7 +6361,7 @@ packages:
       - webpack-cli
     dev: true
 
-  /@xn-sakina/meta@3.8.1(eslint@8.33.0)(typescript@4.9.5):
+  /@xn-sakina/meta@0.0.0-experimental-1(eslint@8.33.0)(typescript@4.9.5):
     resolution:
       {
         integrity: sha512-mxqYv5ciB/LoVC6MkqO2dY7mUuCldKx/YhoZOi282HVCkyV1LdVWOvpVg8TlJWAf0J2GrSvQFL/5M8gywjSJGA==,
@@ -6376,7 +6376,7 @@ packages:
       '@svgr/webpack': 8.1.0
       '@swc/core': 1.3.93
       '@umijs/mfsu': 4.0.86
-      '@xn-sakina/xn-utils': 3.8.1
+      '@xn-sakina/xn-utils': 0.0.0-experimental-1
       babel-loader: 9.1.3(@babel/core@7.23.2)(webpack@5.89.0)
       browserslist: 4.22.1
       c12: 1.4.2
@@ -6443,7 +6443,7 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@xn-sakina/xn-utils@3.8.1:
+  /@xn-sakina/xn-utils@0.0.0-experimental-1:
     resolution:
       {
         integrity: sha512-9PbVtZk2fzUWfUpc6yy9dDBMVS2tX6RBayF8pNtDM63spB2s46I4aIHvDdn+T06sxv1DS01QclVUXVPRRPM7kA==,
